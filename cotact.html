@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <style>
+        *{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-image: url(./bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+}
+.logo{
+    width: 15%;
+    height:80px;
+    border-radius: 50%;
+}
+.navbar{
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+ul{
+    margin-top: 4%;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    margin-top: -3%;
+    transition: 0.4s ease;
+}
+
+ul li a:hover{
+    color: rgb(176, 176, 176);
+}
+.info{
+    margin-left: 7%;
+    margin-top: 6%;
+    color: white;
+    transition-delay: 10s;
+}
+.info h1{
+ color: brown;
+ font-weight: bold;
+ font-size: 40px;
+}
+.info h3{
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    color: white;
+}
+.info .one a {
+    color: orange;
+}
+.two a {
+    color:white;
+}
+.three a{
+    color: green;
+}
+.info a{
+    text-decoration: none;
+    transition: 0.7 ease;
+}
+.info a:hover{
+    color: white;
+}
+.info span{
+    color: greenyellow;
+}
+.downlode a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    margin: 20px 0;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin-left: 70%;
+    font-weight: bold;
+}
+.downlode a:hover {
+        background-color: rgb(0, 187, 255);
+}
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <img src="./logo.jpg" alt="" class="logo">
+
+
+            <ul>
+                <li><a href="./portfoliyo.html" href="portfoliyo.css">HOME</a></li>
+                <li><a href="./Abu.html">ABOUT</a></li>
+                <li><a href="./skill.html">SKILLS</a></li>
+                <li><a href="./mypro.html">MY PROJECT</a></li>
+                <li><a href="./cotact.html">CONTACT</a></li>
+            </ul>
+        </div>
+
+        <div class="info">
+            <h1><span>C</span>ont<span>a</span>nt</h1> <br>
+            <h3> <label for="" class="one">(1) Email : <a href="mailto:abdulazeezsaqlain@gmail.com">abdulazeezsaqlain@gmail.com</a></label></h3>
+            <h3><label for="" class="two">(2) Twitter : <a href="http://www.twitter.com /@Saqlain26733641">@Saqlain26733641</a></label></h3>
+            <h3><label for="" class="three">(3) LinkedIn : <a href="http://www.LinkedIn.com /abdul-azeez-saqlain-0935902240">abdul-azeez-saqlain-0935902240</a></label></h3>
+    </div>
+
+    <div class="downlode">
+        <br><br><br><br><a href="./Abdul Azeez Saqlain Resuma  .pdf" download="" >My Resume(Downlode)</a>
+    </div>
+</body>
+</html>
